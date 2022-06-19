@@ -1,5 +1,12 @@
 package kadai_11_2;
 
-public interface FirePokemon {
+interface FirePokemon extends Pokemon {
+
 	public void FireAttack();
+
+	@Override
+	public void attack();
+
+	@Override
+	public void defense();
 }

@@ -1,6 +1,6 @@
 package kadai_11_2;
 
-public class ThunderFirePokemon implements Pokemon, ThunderPokemon, FirePokemon {
+public class ThunderFirePokemon implements ThunderPokemon, FirePokemon {
 
 	public void attack() {
 		System.out.println("Pokemon‚ÌUŒ‚");

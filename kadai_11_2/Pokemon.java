@@ -1,8 +1,8 @@
 package kadai_11_2;
 
 public interface Pokemon {
-	
-	public  void attack();
 
-	public void defense();
+	public abstract void attack();
+
+	public abstract void defense();
 }
